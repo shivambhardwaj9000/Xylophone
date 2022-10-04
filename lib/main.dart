@@ -17,8 +17,8 @@ class XylophoneApp extends StatelessWidget {
             playsound(soundnum);
           }),
           style: TextButton.styleFrom(
-            foregroundColor: Colors.deepOrange,
-            backgroundColor: Colors.black,
+            foregroundColor: Colors.cyan,
+            backgroundColor: Colors.white60,
           ),
           child: Text(text)),
     );
@@ -28,7 +28,7 @@ class XylophoneApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.amberAccent,
+        backgroundColor: Colors.blueGrey,
         body: SafeArea(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
